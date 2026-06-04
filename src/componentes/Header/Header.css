@@ -1,0 +1,40 @@
+header {
+    background-color: #fff;
+    padding: 10px 17px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo { 
+    width: 150px;                 
+    height: 60px;                 
+    background-image: url('logo sem fundo.png'); 
+    background-size: contain;     
+    background-repeat: no-repeat; 
+    background-position: center;  
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #3498db;
+}
